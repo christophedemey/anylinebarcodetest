@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\scanConfig.json" />
+    <AndroidAsset Include="Assets\others_config_barcode.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />

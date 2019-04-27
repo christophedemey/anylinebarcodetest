@@ -5381,9 +5381,6 @@ namespace App6.Droid
 			// aapt resource value: 0x7f0b0065
 			public const int back = 2131427429;
 			
-			// aapt resource value: 0x7f0b00e3
-			public const int barcode_scan_view = 2131427555;
-			
 			// aapt resource value: 0x7f0b002f
 			public const int beginning = 2131427375;
 			
@@ -5603,17 +5600,20 @@ namespace App6.Droid
 			// aapt resource value: 0x7f0b00e0
 			public const int main_toolbar = 2131427552;
 			
+			// aapt resource value: 0x7f0b00e3
+			public const int main_layout = 2131427555;
+			
 			// aapt resource value: 0x7f0b006b
 			public const int manual = 2131427435;
 			
-			// aapt resource value: 0x7f0b00eb
-			public const int masked = 2131427563;
+			// aapt resource value: 0x7f0b00ec
+			public const int masked = 2131427564;
 			
 			// aapt resource value: 0x7f0b00d2
 			public const int media_actions = 2131427538;
 			
-			// aapt resource value: 0x7f0b00e9
-			public const int message = 2131427561;
+			// aapt resource value: 0x7f0b00ea
+			public const int message = 2131427562;
 			
 			// aapt resource value: 0x7f0b0031
 			public const int middle = 2131427377;
@@ -5771,6 +5771,9 @@ namespace App6.Droid
 			// aapt resource value: 0x7f0b000e
 			public const int save_scale_type = 2131427342;
 			
+			// aapt resource value: 0x7f0b00e4
+			public const int scan_view = 2131427556;
+			
 			// aapt resource value: 0x7f0b0029
 			public const int screen = 2131427369;
 			
@@ -5822,14 +5825,14 @@ namespace App6.Droid
 			// aapt resource value: 0x7f0b009f
 			public const int select_dialog_listview = 2131427487;
 			
-			// aapt resource value: 0x7f0b00e4
-			public const int shellcontent_appbar = 2131427556;
+			// aapt resource value: 0x7f0b00e5
+			public const int shellcontent_appbar = 2131427557;
+			
+			// aapt resource value: 0x7f0b00e7
+			public const int shellcontent_scrollview = 2131427559;
 			
 			// aapt resource value: 0x7f0b00e6
-			public const int shellcontent_scrollview = 2131427558;
-			
-			// aapt resource value: 0x7f0b00e5
-			public const int shellcontent_toolbar = 2131427557;
+			public const int shellcontent_toolbar = 2131427558;
 			
 			// aapt resource value: 0x7f0b0089
 			public const int shortcut = 2131427465;
@@ -5843,8 +5846,8 @@ namespace App6.Droid
 			// aapt resource value: 0x7f0b0025
 			public const int showTitle = 2131427365;
 			
-			// aapt resource value: 0x7f0b00e7
-			public const int sliding_tabs = 2131427559;
+			// aapt resource value: 0x7f0b00e8
+			public const int sliding_tabs = 2131427560;
 			
 			// aapt resource value: 0x7f0b00a2
 			public const int smallLabel = 2131427490;
@@ -5924,8 +5927,8 @@ namespace App6.Droid
 			// aapt resource value: 0x7f0b0084
 			public const int title_template = 2131427460;
 			
-			// aapt resource value: 0x7f0b00e8
-			public const int toolbar = 2131427560;
+			// aapt resource value: 0x7f0b00e9
+			public const int toolbar = 2131427561;
 			
 			// aapt resource value: 0x7f0b003e
 			public const int top = 2131427390;
@@ -5978,8 +5981,8 @@ namespace App6.Droid
 			// aapt resource value: 0x7f0b0016
 			public const int view_offset_helper = 2131427350;
 			
-			// aapt resource value: 0x7f0b00ea
-			public const int visible = 2131427562;
+			// aapt resource value: 0x7f0b00eb
+			public const int visible = 2131427563;
 			
 			// aapt resource value: 0x7f0b00c4
 			public const int volume_item_container = 2131427524;
