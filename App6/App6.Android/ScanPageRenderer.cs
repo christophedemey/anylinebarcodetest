@@ -16,11 +16,13 @@ using IO.Anyline.Xamarin.Support.Plugins.Barcode;
 using IO.Anyline.View;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
+using IO.Anyline.Plugin;
+
 [assembly: ExportRenderer(typeof(ScanPage), typeof(ScanPageRenderer))]
 
 namespace App6.Droid
 {
-    class ScanPageRenderer : PageRenderer, IBarcodeResultListener
+    class ScanPageRenderer : PageRenderer, IBarcodeResultListener, IScanResultListener
     {
         private Android.Views.View _view;
         private ScanView _scanView;
@@ -40,7 +42,8 @@ namespace App6.Droid
                 _view = activity.LayoutInflater.Inflate(Resource.Layout.ScanLayout, this, false);
                 
                 _scanView = _view.FindViewById<ScanView>(Resource.Id.scan_view);
-                _scanView.Init("others_config_barcode", LicenseKey);
+                _scanView.Init("others_config_barcode.json", LicenseKey);
+                AddView(_view);
             }
         }
 
@@ -57,6 +60,11 @@ namespace App6.Droid
         {
             Log.Debug(typeof(ScanPageRenderer).Name, "Result: " + scanResult.Result.ToString());
             Toast.MakeText(Context, scanResult.Result.ToString(), ToastLength.Long).Show();
+        }
+
+        public void OnResult(ScanResult result)
+        {
+            int x = 1 + 1; 
         }
     }
 }
